@@ -6,6 +6,19 @@ This analysis focuses on calculating the profit margins for various used vehicle
 
 ## Directory Structure
 
+```
+objective_analysis_1
+├── data
+│ └── profit_by_brand_model.csv
+├── results
+│ ├── profit_by_brand_and_model_table.png
+│ └── profit_margin_by_brand_and_model_bar_chart.png
+├── scripts
+│ ├── profit_and_profit_margin_table.py
+│ └── profit_and_profit_margin.py
+└── README.md
+```
+
 ## Files Description
 
 - **data/profit_by_brand_model.csv**: Contains the profit and profit margin calculations for each brand and model.
@@ -45,7 +58,7 @@ This analysis focuses on calculating the profit margins for various used vehicle
 - Pandas
 - Matplotlib
 
-Just use the venv directory.
+Just create a venv directory.
 
 ### Running the Profit and Profit Margin Calculation
 
@@ -53,3 +66,4 @@ Just use the venv directory.
 2. Run the `profit_and_profit_margin.py` script:
    ```sh
    python profit_and_profit_margin.py
+   
